@@ -13,7 +13,7 @@ public class Springboot1Application {
 		SpringApplication.run(Springboot1Application.class, args);
 	}
 	
-     @RequestMapping("/")
+     @GetMapping("/")
      public String home(){
          return "Hello World!";
      }
